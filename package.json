@@ -1,0 +1,32 @@
+{
+  "name": "barnacles-azureblobstorage",
+  "homepage": "https://github.com/reelyactive/barnacles-azureblobstorage/",
+  "author": "reelyActive <info@reelyactive.com>",
+  "description": "Azure Blob Storage interface for barnacles.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "Azure Blob Storage",
+    "barnacles"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/barnaclesazureblobstorage.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnacles-azureblobstorage.git"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.0.0",
+    "raddec": ">=0.2.5"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnacles-azureblobstorage/issues"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}
